@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>README Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="settings">
+            <h1>Fields</h1>
+            <div class="settings--item" id="Step 1">
+                <h2>📄 Step 1. Brief information</h2>
+                <h3>Project Name:</h3>
+                <input type="text" id="project_name" placeholder="Enter project name" required>
+                <h3>Project Logo:</h3>
+                <input type="text" id="project_logo" placeholder="Enter URL" required>
+                <h3>Description:</h3>
+                <input type="text" id="project_description" placeholder="Enter project description" required>
+            </div>
+
+            <div class="settings--item" id="Step 2">
+                <h2>🚀 Step 2. Project Demo</h2>
+                <h3>Project Demo URL:</h3>
+                <input type="text" id="project_demo_url" placeholder="Enter URL" required>
+            </div>
+
+            <div class="settings--item" id="Step 3">
+                <h2>📸 Step 3. Project Screenshots</h2>
+                <h3>Project Screenshot URL:</h3>
+                <input type="text" id="project_screenshot_url" placeholder="Enter URL" required>
+            </div>
+
+            <div class="settings--item" id="Step 4">
+                <h2>🧐 Step 4. Features</h2>
+                <h3>Features:</h3>
+                <textarea id="project_features" placeholder="Write about the features of the project" required></textarea>
+            </div>
+
+            <div class="settings--item" id="Step 5">
+                <h2>🛠️ Step 5. Installation Steps</h2>
+                <h3>Installation Steps:</h3>
+                <textarea id="project_installation" placeholder="Write about the installation of your project" required></textarea>
+            </div>
+
+            <div class="settings--item" id="Step 6">
+                <h2>💻 Step 6. Technolgies used</h2>
+                <h3>Technolgies:</h3>
+                <textarea id="project_techologies" placeholder="Write about the technologies used in the project" required></textarea>
+            </div>
+        </div>
+
+        <div id="output">
+            <h1>Prieview</h1>
+            <div id="output-preview"></div>
+        </div>
+    </main>
+
+    <div id="markdown">
+        <h1>Markdown code:</h1>
+        <div id="markdown-preview"></div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
