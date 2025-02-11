@@ -8,6 +8,25 @@ body {
   width: 0;
 }
 
+p {
+    color: #a6adc8;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+footer {
+    background-color: #11111b;
+    min-height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #89b4fa;
+}
 
 main {
     display: flex;

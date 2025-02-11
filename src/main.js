@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else if (label.includes("Description")) {
                         markdownContent += `${value}\n\n`;
                     } else if (label.includes("Project Demo URL")) {
-                        markdownContent += `![Project Demo](${value})\n\n\`${value}\`\n\n`;
+                        markdownContent += `![Project Demo](${value})\n\n`;
                     } else if (label.includes("Project Screenshot URL")) {
-                        markdownContent += `![Project Screenshot URL](${value})\n\n\`${value}\`\n\n`;
+                        markdownContent += `![Project Screenshot URL](${value})\n\n`;
                     } else {
-                        markdownContent += `## ${label}\n${value}\n\n`;
+                        markdownContent += `## ${label}\n\n${value}\n\n`;
                     }
                 }
             });
