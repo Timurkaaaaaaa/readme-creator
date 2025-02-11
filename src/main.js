@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else if (label.includes("Project Screenshot URL")) {
                         markdownContent += `![Project Screenshot URL](${value})\n\n`;
                     } else {
-                        markdownContent += `## ${label}\n${value}\n\n`;
+                        markdownContent += `## ${label}\n\n${value}\n\n`;
                     }
                 }
             });
